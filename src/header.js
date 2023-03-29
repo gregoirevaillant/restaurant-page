@@ -23,15 +23,26 @@ const createHeader = () => {
     home.setAttribute("id", "home");
     contact.setAttribute("id", "contact");
 
+    home.classList.add("active");
+
     header.addEventListener("click", (e) => {
         if (e.target.id === "home") {
             clearPage();
+            home.classList.add("active");
+            menu.classList.remove("active");
+            contact.classList.remove("active");
             createHomePage();
         } else if (e.target.id === "menu") {
             clearPage();
+            home.classList.remove("active");
+            menu.classList.add("active");
+            contact.classList.remove("active");
             createMenuPage();
         } else if (e.target.id === "contact") {
             clearPage();
+            home.classList.remove("active");
+            menu.classList.remove("active");
+            contact.classList.add("active");
             createContactPage();
         }
     });
