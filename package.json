@@ -19,6 +19,7 @@
     },
     "homepage": "https://github.com/gregoirevaillant/restaurant-page#readme",
     "devDependencies": {
+        "gh-pages": "^5.0.0",
         "webpack": "^5.76.3",
         "webpack-cli": "^5.0.1"
     }
