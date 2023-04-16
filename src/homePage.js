@@ -6,7 +6,7 @@ const createHomePage = () => {
     //Create and append the title of the restaurant
     const title = document.createElement("h1");
     title.classList.add("title");
-    title.textContent = "The Best Restaurant";
+    title.textContent = "The Best Restaurant of the world";
     pageContent.appendChild(title);
 
     //Create and append the subtitle of the restaurant
