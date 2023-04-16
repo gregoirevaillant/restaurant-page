@@ -8,7 +8,8 @@ const createContactPage = () => {
     pageContent.appendChild(contactTitle);
 
     const contactInfo = document.createElement("p");
-    contactInfo.textContent = "Phone: 555-555-5555";
+    contactInfo.textContent = "Phone: 555-555-5555 and my email is long";
+
     pageContent.appendChild(contactInfo);
 
     content.appendChild(pageContent);
