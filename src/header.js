@@ -7,17 +7,26 @@ const createHeader = () => {
     const header = document.createElement("header");
     content.appendChild(header);
 
+    const titleHolder = document.createElement("div");
+    const title = document.createElement("h1");
+    title.textContent = "tthàn cang-tin";
+    titleHolder.appendChild(title);
+    header.appendChild(titleHolder);
+
+    const nav = document.createElement("nav");
+
     const home = document.createElement("button");
     home.textContent = "Home";
-    header.appendChild(home);
-
     const menu = document.createElement("button");
     menu.textContent = "Menu";
-    header.appendChild(menu);
-
     const contact = document.createElement("button");
     contact.textContent = "Contact";
-    header.appendChild(contact);
+
+    nav.appendChild(home);
+    nav.appendChild(menu);
+    nav.appendChild(contact);
+
+    header.appendChild(nav);
 
     menu.setAttribute("id", "menu");
     home.setAttribute("id", "home");
