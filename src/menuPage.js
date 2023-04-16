@@ -1,25 +1,25 @@
 const createMenuPage = () => {
     const menuItemsList = [
         {
-            name: "phone",
+            name: "boeuf",
             price: "$15",
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut nisl eget elit ornare consectetur.",
         },
         {
-            name: "Oranges",
+            name: "boeuf",
             price: "$15",
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut nisl eget elit ornare consectetur.",
         },
         {
-            name: "Oranges",
+            name: "boeuf",
             price: "$15",
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut nisl eget elit ornare consectetur.",
         },
         {
-            name: "Oranges",
+            name: "boeuf",
             price: "$15",
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut nisl eget elit ornare consectetur.",
