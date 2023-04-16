@@ -1,7 +1,7 @@
 const createMenuPage = () => {
     const menuItemsList = [
         {
-            name: "Oranges",
+            name: "phone",
             price: "$15",
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut nisl eget elit ornare consectetur.",
