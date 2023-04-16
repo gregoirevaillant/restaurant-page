@@ -64,6 +64,7 @@ const createMenuPage = () => {
     }
     pageContent.appendChild(dishes);
     content.appendChild(pageContent);
+    console.log("menu page created");
 };
 
 export default createMenuPage;
