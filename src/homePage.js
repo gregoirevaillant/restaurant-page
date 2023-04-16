@@ -12,7 +12,7 @@ const createHomePage = () => {
     //Create and append the subtitle of the restaurant
     const subtitle = document.createElement("h2");
     subtitle.classList.add("subtitle");
-    subtitle.textContent = "The Best Food";
+    subtitle.textContent = "The Best Food of the world";
     pageContent.appendChild(subtitle);
 
     content.appendChild(pageContent);
